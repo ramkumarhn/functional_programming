@@ -1,2 +1,2 @@
 # functional_programming
-Class material for functional programming class
+Class material for functional programming sessions
