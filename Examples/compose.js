@@ -46,22 +46,18 @@ let data = {
                 "imei": "MOBILE",
                 "uuid": "MOBILE"
             },
-            "interactionCode": "REGUSR",
-            "phaseCode": "CUSTREG",
-            "serviceCode": "CUSTREG",
-            "serviceId": 1234,
-            "subTransactionCode": "CUSTREG"
+            "interactionCode": "REG"
         }
     },
     "appErrors": [],
     "appHeader": {
-        "appId": "com.idfc.wallet",
+        "appId": "com.example.wallet",
         "deviceId": "",
         "interfaceId": "REGUSR",
         "requestKey": "",
         "screenId": "serverScr",
         "sessionId": "",
-        "source": "ROBOSOFT",
+        "source": "Example",
         "status": "",
         "userId": ""
     }
