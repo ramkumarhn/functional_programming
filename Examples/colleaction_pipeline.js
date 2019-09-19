@@ -47,11 +47,11 @@ let data = [
 function summarizeFlightDelay() {
 
     function summarize(rows) {
-            return {
-                count: rows.length,
-                cancellations: rows.filter(r => r.cancelled).length,
-                totalDelay: rows.filter(r => !r.cancelled).reduce((acc, each) => acc + each.delay, 0)
-            };
+        return {
+            count: rows.length,
+            cancellations: rows.filter(r => r.cancelled).length,
+            totalDelay: rows.filter(r => !r.cancelled).reduce((acc, each) => acc + each.delay, 0)
+        };
     }
 
     function formResult(row) {
